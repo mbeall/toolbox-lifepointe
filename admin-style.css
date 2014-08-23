@@ -1,0 +1,22 @@
+/*
+ * Stylesheet for admin screens
+ *
+ * @package LifePointe
+ * @since 0.8.0
+ */
+
+#adminmenu .wp-menu-image img {
+  max-width: 15px;
+  max-height: 20px;
+}
+
+.appearance_page_theme_options .wrap {
+  position: relative;
+  top: -14px;
+  padding: 4px 15px 0;
+  margin: 4px 15px 0 0;
+  border: 1px solid #dfdfdf;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-image: initial;
+}

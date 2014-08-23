@@ -7,8 +7,8 @@
  * and that other 'pages' on your WordPress site will use a
  * different template.
  *
- * @package Toolbox
- * @since Toolbox 0.1
+ * @package LifePointe
+ * @since 0.8.0
  */
 
 get_header(); ?>
@@ -18,7 +18,7 @@ get_header(); ?>
 
         <?php while ( have_posts() ) : the_post(); ?>
 
-          <?php get_template_part( 'content', 'page' ); ?>
+          <?php get_template_part( 'type', 'page' ); ?>
 
           <?php comments_template( '', true ); ?>
 

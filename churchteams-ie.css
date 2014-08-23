@@ -1,0 +1,154 @@
+/*
+ * ChurchTeams stylesheet for Internet Explorer
+ *
+ * @package LifePointe
+ * @since 0.7.7
+ */
+
+body a:link {
+  color: #9dc3e6;
+  text-decoration: none;
+}
+body a:visited {
+  color: #9dc3e6;
+  text-decoration: none;
+}
+body a:hover {
+  color: #9dc3e6;
+  text-decoration: underline;
+}
+body {
+  font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1;
+  color: #fff;
+  background: #004193;
+}
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+div#tophead {
+  width: 95%;
+  text-align: center;
+}
+div#tophead h2 {
+  top: -75px;
+  padding: 0;
+  clear: both;
+  text-align: center;
+  border: 0;
+}
+#GroupNameSearch {
+  padding: 0;
+  clear: both;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  border: 0;
+}
+div#leftnav {
+  left: 20px;
+  float: left;
+  width: 260px;
+  padding: 0;
+  clear: none;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11px;
+  line-height: 140%;
+  color: #fff;
+  text-align: left;
+}
+select {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11px;
+  text-align: left;
+}
+select.FilterSelect {
+  width: 170px;
+  text-align: left;
+}
+input {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11px;
+  text-align: left;
+}
+table.filtertable {
+  left: -5px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11px;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+}
+div.groups {
+  width: 95%;
+  padding: 0 0 0 20px;
+}
+
+/* Group Name link */
+div.groups h3 {
+  display: inline;
+  padding: 0 4px 0 0;
+  margin: 0 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 133%;
+  text-transform: none;
+  border-bottom: #95a0b1 0 solid;
+}
+div.groups h4 {
+  display: block;
+  padding: 0 4px 0 0;
+  margin: 0 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 133%;
+  text-transform: none;
+  border-bottom: #95a0b1 0 solid;
+}
+div.groups ol#groups {
+  padding: 0 0 10;
+  margin: 0  12px;
+}
+
+/* Group Attributes (i.e. Meeting Day, Study topic etc) */
+div.groups ol.grouplist .av {
+  font-weight: 300;
+}
+
+/* Group Description font */
+div.groups ol.grouplist span.groupdesc {
+  font-size: 11px;
+  font-weight: 300;
+}
+div.groups ol.grouplist .al {
+  font-weight: bold;
+  text-align: left;
+}
+div.groups div.groupshead {
+  width: 100%;
+  padding: 3px 5px;
+  border-bottom: 3px solid #e0e6e9;
+}
+span.rightjustify {
+  float: right;
+}
+div.photo {
+  float: left;
+}
+
+/* rounded corners for group photos */
+img {
+  border-radius: 10px;
+}
+.logo {
+  width: 250px;
+  margin: 20px auto;
+  border: 0;
+}

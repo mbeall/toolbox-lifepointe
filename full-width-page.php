@@ -3,8 +3,8 @@
  * Template Name: Full-width, no sidebar
  * Description: A full-width template with no sidebar
  *
- * @package Toolbox
- * @since Toolbox 0.1
+ * @package LifePointe
+ * @since 0.8.0
  */
 
 get_header(); ?>
@@ -14,7 +14,7 @@ get_header(); ?>
 
         <?php while ( have_posts() ) : the_post(); ?>
 
-        <?php get_template_part( 'content', 'page' ); ?>
+        <?php get_template_part( 'type', 'page' ); ?>
 
         <?php comments_template( '', true ); ?>
 
